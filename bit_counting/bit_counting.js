@@ -7,7 +7,7 @@ let countBits = function(n) {
   let x= n.toString(2)// base two returned
   let counter= 0;
   for (i =0; i < x.length; i++){ //iterating through the array to find the length
-    if (x[i] === "1"){ // comparing the value of sub i to the sting passed through
+    if (x[i] === '1'){ // comparing the value of sub i to the sting passed through
       counter++ // incrementing
     }
   }
