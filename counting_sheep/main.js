@@ -9,7 +9,7 @@
   //true,  false, false, true ,
   //true,  true,  true,  true ,
   //false, false, true,  true]
-//The correct answer would be 17.
+//The correct answer would be 17
 //Hint: Don't forget to check for bad values like null/undefined
 function countSheeps(arrayOfSheep) {
   // TODO May the force be with you
