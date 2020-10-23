@@ -1,4 +1,4 @@
-// Task: Given an array/list [] of integers , Find the Nth smallest element in this array of integers
+// Task: Given an array/list [] of integers, Find the Nth smallest element in this array of integers
 
 const nthSmallest = (arr, pos) => arr.sort((a, b) => a - b)[pos - 1]
 
