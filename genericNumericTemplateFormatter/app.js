@@ -15,8 +15,13 @@ https://www.codewars.com/kata/59901fb5917839fe41000029/train/javascript
 // numericFormatter("xxxx yyyy zzzz") === "1234 5678 9012"
 
 
-const numericFormatter = (template, num ='1234567890', i = 0) => {
+const numericFormatter = (template, num = '1234567890', i = 0) => {
     return template.replace(/[a-z]/gi, () => {
         return num[(i++) % num.length]
     })
 }
+
+
+checkExam = (correctAnswers, studentAnswers) => Math.max(studentAnswers.reduce((acc, curr, i) => curr == correctAnswers[i] ? acc + 4 : curr ? acc - 1 : acc, 0), 0)
+
+checkExam = (arr1, arr2) => Math.max(arr2.reduce((a, b, i) => b == arr1[i] ? a + 4 : b ? a - 1 : a, 0), 0)
