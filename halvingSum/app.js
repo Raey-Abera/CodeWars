@@ -1,4 +1,5 @@
-//Given a positive integer n, calculate the following sum: n + n/2 + n/4 + n/8 + .... All divisions are integer
+//Given a positive integer n, calculate the following sum: 
+// n + n/2 + n/4 + n/8 + .... All divisions are integer
 
 function halvingSum(n) {
     let score=0;
