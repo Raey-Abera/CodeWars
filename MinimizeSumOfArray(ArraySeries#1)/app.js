@@ -1,4 +1,5 @@
-// Given an array of integers , Find the minimum sum which is obtained from summing each Two integers product.
+// Given an array of integers , Find the minimum sum which is obtained from summing each Two integers product
+
 // Array/list will contain positives only 
 // Array/list will always have even size
 
