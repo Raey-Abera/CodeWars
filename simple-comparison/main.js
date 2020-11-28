@@ -2,6 +2,9 @@
 //
 // To make this challange harder and to promp the challenger to read up about coersion I have disabled some of the built in methods including .toString(), .join(), .split(), parseInt and .Number().
 
-function add(a, b){
-  return a == b
-}
+const add = (a, b) => a == b
+
+console.log('test1', add(4,4))//true
+console.log('test2', add(4,'4'))//true
+console.log('test3', add(4,6))//false 
+console.log('test4', add(4,'6'))//false 
