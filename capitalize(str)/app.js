@@ -1,5 +1,6 @@
 //Write a function that capitalizes the first letter of every word in a given sentence 
 
+//using for of loop
 const capitalize = str => {
     const words = [];
     //split string by spaces to target first letter of word and get an array
@@ -17,7 +18,7 @@ const capitalize = str => {
 //     let result = str[0].toUpperCase();
 //     //loop through each char in str
 //     for (let i = 1; i < str.length; i++) {
-//         //condittion to check if the char to the left has a space
+//         //condition to check if the char to the left has a space
 //         if (str[i - 1] === ' ') {
 //             //capitalize it and add it to the result
 //             result += str[i].toUpperCase()
