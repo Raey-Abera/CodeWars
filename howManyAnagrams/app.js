@@ -1,5 +1,6 @@
-//writea function that takes in an array of strngs and returns an array for each array item
-//it returns new array that has two items
+//write a function that takes in an array of strngs 
+//and returns an array for each array item
+//it returns a new array that has two items
 //one is a boolean - are there anagrams in this array
 //and the other is how many anagram pairs 
 //ie. ['raey', 'year'] -> [true, 1] // one pair
