@@ -1,4 +1,4 @@
-//
+//using if condition 
 const reverseStr = str => {
     if (str === '') return '';
     return reverseStr(str.substr(1)) + str.charAt(0);
@@ -7,7 +7,7 @@ const reverseStr = str => {
 console.log(reverseStr('year'))
 ///////////////////////////////////////////////////
 
-//for of loop
+//using for of loop
 // const reverseStr = str => {
 //     let reversed = '';
 //     for(let char of str){
@@ -17,7 +17,7 @@ console.log(reverseStr('year'))
 // }
 ////////////////////////////////////////////////////
 
-//for loop
+//using for loop
 // const reverseString = str => {
 //     let reversedStr = '';
 //     for(let i = str.length - 1; i >= 0; i--) {
