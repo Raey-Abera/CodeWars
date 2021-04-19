@@ -1,3 +1,4 @@
+// https://www.codewars.com/kata/5949481f86420f59480000e7/train/javascript
 // Task:
 // Given a list of integers, determine whether the sum of its elements is odd or even.
 
